@@ -1,0 +1,11 @@
+# Add LaTeX package to allow PGF plots
+
+pgf.texsystem: pdflatex        # change this if using xetex or lautex
+text.usetex: True                # use LaTeX to write all text
+font.family: serif
+font.serif: []                   # blank entries should cause plots
+font.sans-serif: []             # to inherit fonts from the document
+font.monospace: []
+pgf.preamble: \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage[detect-all,locale=DE]{siunitx} \usepackage{amsmath} \usepackage[T1]{fontenc} \usepackage{pgfplots}
+                                                                                                                                                                                 
+

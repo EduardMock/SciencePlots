@@ -2,6 +2,7 @@
 
 # Set default figure size
 figure.figsize : 8, 6
+figure.dpi : 100 
 
 # Set x axis
 xtick.major.size : 6
@@ -31,6 +32,10 @@ lines.linewidth : 2.
 # Use sans-serif fonts
 font.family : sans-serif
 mathtext.fontset : dejavusans
+
+axes.facecolor : 'white'     
+savefig.facecolor : 'white'  
+
 
 # Use LaTeX for math formatting
 text.usetex : False
