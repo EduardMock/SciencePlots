@@ -7,6 +7,7 @@ axes.prop_cycle : cycler('color', ['0C5DA5', '00B945', 'FF9500', 'FF2C00', '845B
 
 # Set default figure size
 figure.figsize : 3.5, 2.625
+figure.dpi : 100 
 
 # Set x axis
 xtick.direction : in
@@ -43,6 +44,5 @@ savefig.pad_inches : 0.05
 font.family : serif
 mathtext.fontset : dejavuserif
 
-# Use LaTeX for math formatting
-text.usetex : True
-text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb}
+
+

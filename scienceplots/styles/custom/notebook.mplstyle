@@ -22,7 +22,7 @@ ytick.labelsize : 16
 legend.fontsize : 16
 legend.title_fontsize : 16
 axes.titlesize : 16
-axes.labelsize : 16
+axes.labelsize : 20
 
 # Set line widths
 axes.linewidth : 1
@@ -37,5 +37,4 @@ axes.facecolor : 'white'
 savefig.facecolor : 'white'  
 
 
-# Use LaTeX for math formatting
-text.usetex : False
+

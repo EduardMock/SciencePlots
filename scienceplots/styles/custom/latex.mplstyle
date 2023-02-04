@@ -1,0 +1,13 @@
+# Matplotlib style for Jupyter notebooks
+
+
+# Use sans-serif fonts
+font.family : serif           #['sans-serif', 'serif', 'cursive', 'fantasy', 'monospace']
+font.serif : cmr10            #['cmr10', 'DejaVu Serif', 'Bitstream Vera Serif', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', 'serif']
+mathtext.fontset : cm      #['dejavusans', 'dejavuserif', 'cm', 'stix', 'stixsans', 'custom']
+mathtext.usetex : True
+
+# Use LaTeX for math formatting
+text.usetex : True 
+text.latex.preamble : \usepackage[T1]{fontenc}  \usepackage{amsmath} \usepackage{amssymb}  
+
