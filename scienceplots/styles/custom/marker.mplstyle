@@ -1,0 +1,10 @@
+# Matplotlib style for scientific plotting
+# This is the base style for "SciencePlots"
+# see: https://github.com/garrettj403/SciencePlots
+
+# Set color cycle: orange, teal, green, blue, green, yellow, red, violet, gray
+axes.prop_cycle : cycler('marker', ['o', 's', 'D', '^', 'd', 'p', 'v', 'h', '8', 'H', 'P', 'X'])
+
+
+
+
